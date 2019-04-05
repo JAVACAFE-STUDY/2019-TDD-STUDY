@@ -2,9 +2,7 @@ package money;
 
 import java.util.Objects;
 
-public class Dollar {
-    public int amount;
-
+public class Dollar extends Money {
     public Dollar(int amount) {
         this.amount = amount;
     }
@@ -15,14 +13,8 @@ public class Dollar {
 
     @Override
     public boolean equals(Object object) {
-        if (this == object) return true;
-        if (object == null || getClass() != object.getClass()) return false;
-        Dollar dollar = (Dollar) object;
+        Money dollar = (Money) object;
         return amount == dollar.amount;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(amount);
-    }
 }

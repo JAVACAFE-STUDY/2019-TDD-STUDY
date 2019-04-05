@@ -2,9 +2,7 @@ package money;
 
 import java.util.Objects;
 
-public class Franc {
-    public int amount;
-
+public class Franc extends Money {
     public Franc(int amount) {
         this.amount = amount;
     }
@@ -21,8 +19,4 @@ public class Franc {
         return amount == franc.amount;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(amount);
-    }
 }
