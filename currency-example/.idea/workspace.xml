@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e77c66-793c-4e3f-9843-1250b516dd72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/money/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/money/Franc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/money/Dollar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/money/Dollar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/money/MoneyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/money/MoneyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/money/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../currency/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +19,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/currency$MoneyTest_testMultiplication.ic" NAME="MoneyTest.testMultiplication Coverage Results" MODIFIED="1554482226130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>money.*</FILTER>
+    </SUITE>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -22,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="42">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,16 +43,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/money/Franc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="28" />
               <folding>
                 <element signature="e#92#93#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +94,9 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/money/Dollar.java" />
-        <option value="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/money/Dollar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/money/Franc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" />
       </list>
     </option>
   </component>
@@ -148,8 +177,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554481579942" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554485988663" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/money" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -170,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MoneyTest">
     <configuration name="MoneyTest.testMultiplication" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="currency.currency.test" />
       <extension name="coverage">
@@ -187,9 +216,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="currency.currency.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="money.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="money" />
+      <option name="MAIN_CLASS_NAME" value="money.MoneyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="currency.currency.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="money.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="money" />
+      <option name="MAIN_CLASS_NAME" value="money.MoneyTest" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoneyTest" />
         <item itemvalue="Android JUnit.MoneyTest.testMultiplication" />
+        <item itemvalue="JUnit.MoneyTest.testEquality" />
       </list>
     </recent_temporary>
   </component>
@@ -203,23 +265,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554478502991</updated>
-      <workItem from="1554478504768" duration="2009000" />
+      <workItem from="1554478504768" duration="6394000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 01h 10m 20s.xml">
+    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 02h 01m 01s.xml">
       <configuration name="MoneyTest.testMultiplication" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 01h 11m 28s.xml">
+    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 02h 01m 53s.xml">
       <configuration name="MoneyTest.testMultiplication" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 01h 20m 32s.xml">
+    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 02h 02m 19s.xml">
+      <configuration name="MoneyTest.testMultiplication" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 02h 04m 12s.xml">
+      <configuration name="MoneyTest.testMultiplication" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testEquality - 2019.04.06 at 02h 16m 54s.xml">
+      <configuration name="MoneyTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testEquality - 2019.04.06 at 02h 17m 07s.xml">
+      <configuration name="MoneyTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testEquality - 2019.04.06 at 02h 17m 16s.xml">
+      <configuration name="MoneyTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testEquality - 2019.04.06 at 02h 20m 23s.xml">
+      <configuration name="MoneyTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testEquality - 2019.04.06 at 02h 21m 21s.xml">
+      <configuration name="MoneyTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 02h 26m 55s.xml">
       <configuration name="MoneyTest.testMultiplication" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2009000" />
+    <option name="totallyTimeSpent" value="6394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,14 +329,14 @@
       <window_info anchor="bottom" id="Terminal" weight="0.32915717" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295325" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32915717" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39749432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32687926" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3929385" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32915717" />
@@ -264,6 +347,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -271,6 +355,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -297,25 +407,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Franc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
