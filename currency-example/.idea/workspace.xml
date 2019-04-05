@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51e77c66-793c-4e3f-9843-1250b516dd72" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/money/Dollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../currency/.idea/workspace.xml" beforeDir="false" />
     </list>
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +34,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554481011896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554481579942" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -198,7 +203,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554478502991</updated>
-      <workItem from="1554478504768" duration="1654000" />
+      <workItem from="1554478504768" duration="2009000" />
     </task>
     <servers />
   </component>
@@ -209,9 +214,12 @@
     <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 01h 11m 28s.xml">
       <configuration name="MoneyTest.testMultiplication" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="MoneyTest_testMultiplication - 2019.04.06 at 01h 20m 32s.xml">
+      <configuration name="MoneyTest.testMultiplication" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1654000" />
+    <option name="totallyTimeSpent" value="2009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,7 +253,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863327" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39749432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32915717" />
@@ -289,19 +297,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
