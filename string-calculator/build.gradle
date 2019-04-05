@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'string-calculator'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('ch.qos.logback:logback-classic:1.2.3')
+    testCompile('junit:junit:4.12')
+    testCompile('org.assertj:assertj-core:3.11.1')
+}
