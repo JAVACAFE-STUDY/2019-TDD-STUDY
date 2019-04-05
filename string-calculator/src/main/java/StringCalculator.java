@@ -6,9 +6,15 @@ public class StringCalculator {
             return 0;
         } else {
             String[] values = text.split(",|:");
-            for (String value : values) {
-                result +=Integer.parseInt(value);
-            }
+            result = getResult(values);
+        }
+        return result;
+    }
+
+    private static int getResult(String[] values) {
+        int result = 0;
+        for (String value : values) {
+            result += Integer.parseInt(value);
         }
         return result;
     }
