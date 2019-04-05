@@ -14,27 +14,19 @@ public class StringCalculator {
         return text == null || text.isEmpty();
     }
 
-    private static int sum(int[] numbers) {
-        int result = 0;
-        for (int number : numbers) {
-            result += number;
+    private static int sum(Positive[] numbers) {
+        Positive result = new Positive(0);
+        for (Positive number : numbers) {
+            result = result.add(number);
         }
-        return result;
+        return result.getNumber();
     }
 
-    private static int[] toInts(String[] values) {
-        int[] numbers = new int[values.length];
+    private static Positive[] toInts(String[] values) {
+        Positive[] numbers = new Positive[values.length];
         for (int i = 0; i < values.length; i++) {
-            numbers[i] = toInt(values[i]);
+            numbers[i] = new Positive(values[i]);
         }
         return numbers;
-    }
-
-    private static int toInt(String value) {
-        int number = Integer.parseInt(value);
-        if(number < 0) {
-            throw new RuntimeException();
-        }
-        return number;
     }
 }
