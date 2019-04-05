@@ -4,14 +4,13 @@ public class StringCalculator {
 
         if (text == null || text.isEmpty()) {
             return 0;
-        } else {
-            String[] values = text.split(",|:");
-            result = getResult(values);
         }
+        String[] values = text.split(",|:");
+        result = sum(values);
         return result;
     }
 
-    private static int getResult(String[] values) {
+    private static int sum(String[] values) {
         int result = 0;
         for (String value : values) {
             result += Integer.parseInt(value);
