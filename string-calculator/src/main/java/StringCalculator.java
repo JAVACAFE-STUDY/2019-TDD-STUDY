@@ -1,9 +1,17 @@
 public class StringCalculator {
     public static int splitAndSum(String text) {
-        if (text == null || text.isEmpty()) {
+        if (isBlank(text)) {
             return 0;
         }
-        return sum(toInts(text.split(",|:")));
+        return sum(toInts(split(text)));
+    }
+
+    private static String[] split(String text) {
+        return text.split(",|:");
+    }
+
+    private static boolean isBlank(String text) {
+        return text == null || text.isEmpty();
     }
 
     private static int sum(int[] numbers) {
