@@ -1,20 +1,24 @@
 public class StringCalculator {
     public static int splitAndSum(String text) {
-        int result = 0;
-
         if (text == null || text.isEmpty()) {
             return 0;
         }
-        String[] values = text.split(",|:");
-        result = sum(values);
+        return sum(toInts(text.split(",|:")));
+    }
+
+    private static int sum(int[] numbers) {
+        int result = 0;
+        for (int number : numbers) {
+            result += number;
+        }
         return result;
     }
 
-    private static int sum(String[] values) {
-        int result = 0;
-        for (String value : values) {
-            result += Integer.parseInt(value);
+    private static int[] toInts(String[] values) {
+        int[] numbers = new int[values.length];
+        for (int i = 0; i < values.length; i++) {
+            numbers[i] = Integer.parseInt(values[i]);
         }
-        return result;
+        return numbers;
     }
 }
