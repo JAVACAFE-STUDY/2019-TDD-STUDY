@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="51e77c66-793c-4e3f-9843-1250b516dd72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/money/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/money/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/money/Franc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/money/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../string-calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../string-calculator/.idea/workspace.xml" afterDir="false" />
@@ -33,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+            <state relative-caret-position="252">
+              <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,21 +51,23 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/money/Franc.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/money/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="372">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +85,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,10 +112,10 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/money/Dollar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/money/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/money/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/money/Money.java" />
-        <option value="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" />
       </list>
     </option>
   </component>
@@ -218,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555078644654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555080500745" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/money" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -307,32 +315,11 @@
       <option name="presentableId" value="Default" />
       <updated>1554478502991</updated>
       <workItem from="1554478504768" duration="6394000" />
-      <workItem from="1555075044198" duration="3054000" />
+      <workItem from="1555075044198" duration="4597000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest - 2019.04.12 at 22h 48m 30s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2019.04.12 at 22h 48m 54s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2019.04.12 at 22h 50m 17s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2019.04.12 at 22h 51m 44s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2019.04.12 at 22h 52m 23s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2019.04.12 at 22h 58m 26s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2019.04.12 at 22h 59m 43s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoneyTest - 2019.04.12 at 23h 00m 15s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
@@ -342,9 +329,30 @@
     <history-entry file="MoneyTest - 2019.04.12 at 23h 17m 27s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MoneyTest - 2019.04.12 at 23h 22m 29s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2019.04.12 at 23h 29m 35s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2019.04.12 at 23h 37m 23s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2019.04.12 at 23h 37m 44s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2019.04.12 at 23h 39m 51s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2019.04.12 at 23h 42m 09s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2019.04.12 at 23h 44m 48s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9472000" />
+    <option name="totallyTimeSpent" value="11015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +367,7 @@
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -370,7 +378,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32142857" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38324177" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32915717" />
@@ -457,13 +465,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/money/Dollar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1613">
@@ -471,32 +472,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/money/Franc.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="252">
+          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/money/Money.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Franc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
           </folding>
         </state>
       </provider>

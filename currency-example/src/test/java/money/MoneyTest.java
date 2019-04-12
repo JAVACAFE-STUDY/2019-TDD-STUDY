@@ -22,6 +22,8 @@ import static org.junit.Assert.*;
 - 공용 Equals
 - 공용 times
 - Franc과 Dollar 비교
+- 통화?
+- testFrancMultiplication 제거
 */
 public class MoneyTest {
     Logger logger = LoggerFactory.getLogger("money.MoneyTest");
@@ -47,5 +49,11 @@ public class MoneyTest {
         assertTrue(Money.franc(5).equals(Money.franc(5)));
         assertFalse(Money.franc(5).equals(Money.franc(6)));
         assertFalse(Money.franc(5).equals(Money.dollar(5)));
+    }
+
+    @Test
+    public void testCurrency() {
+        assertEquals("USD", Money.dollar(1).currency());
+        assertEquals("CHF", Money.franc(1).currency());
     }
 }
