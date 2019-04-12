@@ -1,5 +1,10 @@
 package money;
 
 public class Money {
-    public int amount;
+    protected int amount;
+
+    public boolean equals(Object object) {
+        Money money = (Money) object;
+        return amount == money.amount;
+    }
 }

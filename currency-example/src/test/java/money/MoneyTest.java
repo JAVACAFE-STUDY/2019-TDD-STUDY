@@ -4,8 +4,7 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 /* TODO-LIST:
 - $5 + 10CHF = $10(환율이 2:1일 경우)
@@ -19,6 +18,10 @@ import static org.junit.Assert.assertTrue;
 - Equal object
 
 - 5CHF *2 = 10CHF
+- Dollar/Fanc 중복
+- 공용 Equals
+- 공용 times
+- Franc과 Dollar 비교
 */
 public class MoneyTest {
     Logger logger = LoggerFactory.getLogger("money.MoneyTest");
@@ -33,7 +36,9 @@ public class MoneyTest {
     @Test
     public void testEquality() {
         assertTrue(new Dollar(5).equals(new Dollar(5)));
-        assertTrue(new Dollar(6).equals(new Dollar(6)));
+        assertFalse(new Dollar(5).equals(new Dollar(6)));
+        assertTrue(new Franc(5).equals(new Franc(5)));
+        assertFalse(new Franc(5).equals(new Franc(6)));
     }
 
     @Test
