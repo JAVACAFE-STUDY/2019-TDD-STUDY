@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e77c66-793c-4e3f-9843-1250b516dd72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/money/Dollar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/money/Franc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/money/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/money/MoneyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../string-calculator/out/production/classes/Positive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../string-calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../string-calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../string-calculator/out/production/classes/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../string-calculator/out/production/classes/StringCalculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../string-calculator/out/test/classes/StringCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../string-calculator/out/test/classes/StringCalculatorTest.class" afterDir="false" />
@@ -38,7 +34,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="218">
               <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -334,7 +330,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12289000" />
+    <option name="totallyTimeSpent" value="12292000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +343,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -454,28 +449,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/money/Franc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Dollar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/money/Franc.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/money/Money.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -497,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/money/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="218">
           <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />

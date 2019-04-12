@@ -24,4 +24,9 @@ public class StringCalculatorTest {
     public void 쉼표_콜론_구분자() {
         assertThat(StringCalculator.splitAndSum("1,2:3")).isEqualTo(6);
     }
+
+    @Test(expected = RuntimeException.class)
+    public void 음수값() {
+        StringCalculator.splitAndSum("-1,2:#");
+    }
 }
