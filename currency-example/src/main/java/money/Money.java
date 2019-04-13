@@ -1,6 +1,6 @@
 package money;
 
-public class Money {
+public class Money implements Expression{
 
     protected int amount;
     protected String currency;
@@ -16,6 +16,12 @@ public class Money {
 
     Money times(int multiplier) {
         return new Money(amount * multiplier, currency);
+    }
+
+    @Override
+    public Money reduce(Bank bank, String to) {
+        int rate = bank.rate(currency, to);
+        return new Money(amount/rate, to);
     }
 
     public boolean equals(Object object) {
@@ -36,5 +42,7 @@ public class Money {
     public static Money franc(int amount) {
         return new Money(amount, "CHF");
     }
+
+
 
 }
